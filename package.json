@@ -1,0 +1,31 @@
+{
+  "name": "@jularious/pwd-gen",
+  "version": "0.1.0",
+  "description": "Password Generator",
+  "keywords": [
+    "password",
+    "generator"
+  ],
+  "homepage": "https://github.com/jularious03/pwd-gen#readme",
+  "bugs": {
+    "url": "https://github.com/jularious03/pwd-gen/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jularious03/pwd-gen.git"
+  },
+  "license": "MIT",
+  "author": "Juliane Schmidleitner",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "uuid": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
